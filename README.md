@@ -14,7 +14,7 @@ Regarding to data matrices correspond to simulations using modified O'Hara** ver
 
 The equation for calculate input values consists of:
 
-![](https://cdn.mathpix.com/snip/images/SnRa6U0A6xDms14lZjoVV7kgnKGyBWlsY_JJB_1hE0g.original.fullsize.png)
+![my equation](https://latex.codecogs.com/svg.image?\text&space;{&space;Input&space;value&space;}=\log&space;_{10}\left(\left[\frac{D}{I&space;C_{50}}\right]^{h}\right))
 
 # References
 
