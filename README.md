@@ -14,42 +14,7 @@ Regarding to data matrices correspond to simulations using modified O'Hara** ver
 
 The equation for calculate input values consists of:
 
-<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
-  <mtext> Input value </mtext>
-  <mo>=</mo>
-  <msub>
-    <mi>log</mi>
-    <mrow>
-      <mn>10</mn>
-    </mrow>
-  </msub>
-  <mo data-mjx-texclass="NONE">⁡</mo>
-  <mrow data-mjx-texclass="INNER">
-    <mo data-mjx-texclass="OPEN">(</mo>
-    <msup>
-      <mrow data-mjx-texclass="INNER">
-        <mo data-mjx-texclass="OPEN">[</mo>
-        <mfrac>
-          <mi>D</mi>
-          <mrow>
-            <mi>I</mi>
-            <msub>
-              <mi>C</mi>
-              <mrow>
-                <mn>50</mn>
-              </mrow>
-            </msub>
-          </mrow>
-        </mfrac>
-        <mo data-mjx-texclass="CLOSE">]</mo>
-      </mrow>
-      <mrow>
-        <mi>h</mi>
-      </mrow>
-    </msup>
-    <mo data-mjx-texclass="CLOSE">)</mo>
-  </mrow>
-</math>
+" Input value "=log_(10)([(D)/(IC_(50))]^(h))
 
 # References
 
