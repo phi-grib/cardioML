@@ -10,7 +10,7 @@ Regarding to data matrices correspond to simulations using modified O'Hara** ver
 
 - KrKsCaL.xlsx: This is data matrix for build the ML models.
 - APD90_12CiPA_drugs_IKrIKsICaL.xlsx: This excel contains the input and output values for CiPA compounds.
-- EFTPC_IC50_28_CiPADrugs.xlsx: This file contains D, <img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1"> and hill coefficient for calculate the input values for CiPA compounds of the previous excel file.
+- EFTPC_IC50_28_CiPADrugs.xlsx: This file contains D, <img src="https://render.githubusercontent.com/render/math?math=IC_{50}"> and hill coefficient for calculate the input values for CiPA compounds of the previous excel file.
 
 # References
 
