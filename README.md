@@ -12,6 +12,10 @@ Regarding to data matrices correspond to simulations using modified O'Hara** ver
 - APD90_12CiPA_drugs_IKrIKsICaL.xlsx: This excel contains the input and output values for CiPA compounds.
 - EFTPC_IC50_28_CiPADrugs.xlsx: This file contains D, <img src="https://render.githubusercontent.com/render/math?math={IC}_50"> and hill coefficient for calculate the input values for CiPA compounds of the previous excel file.
 
+The equation for calculate input values consists of:
+
+<img src="https://render.githubusercontent.com/render/math?math=Input value =\log _{10}\left(\left[\frac{D}{I C_{50}}\right]^{h}\right)">
+
 # References
 
 * Llopis J, Cano J, Gomis-Tena J, Romero L, Sanz F, Pastor M, Trenor B, Saiz J. In silico assay for preclinical assessment of drug proarrhythmicity. J Pharmacol Toxicol Methods 2019 99: 106595. PMID: 31962986 DOI: 10.1016/j.vascn.2019.05.106.
