@@ -6,7 +6,7 @@ The relationship between the input values and the biomarker is not too complex a
 
 In this repository we have included a jupyter notebook and example simulation results that demonstrate this idea. 
 
-Regarding to data matrices correspond to simulations using modified O'Hara** version which have been produced by Jordi Llopis, Beatriz Trenor and Javier Saiz.
+Regarding to data matrices correspond to simulations using modified O'Hara** version which have been produced by Jordi Llopis, Beatriz Trenor and Javier Saiz at the Centro de Investigación e Innovación en Bioingeniería (Ci2B), Universitat Politècnica de València, Valencia, Spain
 
 - KrKsCaL.xlsx: This is data matrix for build the ML models.
 - APD90_12CiPA_drugs_IKrIKsICaL.xlsx: This excel contains the input and output values for CiPA compounds.
@@ -21,3 +21,19 @@ The equation for calculate input values consists of:
 * Llopis J, Cano J, Gomis-Tena J, Romero L, Sanz F, Pastor M, Trenor B, Saiz J. In silico assay for preclinical assessment of drug proarrhythmicity. J Pharmacol Toxicol Methods 2019 99: 106595. PMID: 31962986 DOI: 10.1016/j.vascn.2019.05.106.
 
 * O’Hara, T., Virág, L., Varró, A. & Rudy, Y. Simulation of the Undiseased Human Cardiac Ventricular Action Potential: Model Formulation and Experimental Validation. PLOS Comput. Biol. 7, e1002061 (2011).
+
+## Licensing
+
+CardioML was produced at the PharmacoInformatics lab (http://phi.upf.edu), in the framework of the eTRANSAFE project (http://etransafe.eu). eTRANSAFE has received support from IMI2 Joint Undertaking under Grant Agreement No. 777365. This Joint Undertaking receives support from the European Union’s Horizon 2020 research and innovation programme and the European Federation of Pharmaceutical Industries and Associations (EFPIA). 
+
+![Alt text](images/eTRANSAFE-logo-git.png?raw=true "eTRANSAFE-logo") ![Alt text](images/imi-logo.png?raw=true "IMI logo")
+
+Copyright 2022 Manuel Pastor (manuel.pastor@upf.edu)
+
+CardioML is free software: you can redistribute it and/or modify it under the terms of the **GNU General Public License as published by the Free Software Foundation version 3**.
+
+CardioML is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with CardioML source code. If not, see <http://www.gnu.org/licenses/>.
+
