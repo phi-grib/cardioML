@@ -11,7 +11,7 @@ Regarding to data matrices correspond to simulations using modified O'Hara** ver
 - KrKsCaL.xlsx: This is data matrix for build the ML models.
 - APD90_12CiPA_drugs_IKrIKsICaL.xlsx: This excel contains the input and output values for CiPA compounds.
 - EFTPC_IC50_28_CiPADrugs.xlsx: This file contains D, ![my equation](https://latex.codecogs.com/svg.image?I&space;C_{50}) and hill coefficient for calculate the input values for CiPA compounds of the previous excel file.
-- Folder "Matrix Building": This folder contains MATLAB functions for generating the KrKsCaL matrix. The script "buldMatrixKrKsNaL.m" is the main script which run the electrophysioloigcal simulations and generates the matrix
+- Folder "Matrix Building": This folder contains MATLAB functions for generating the KrKsCaL matrix. The script "buildMatrixKrKsNaL.m" is the main script which run the electrophysioloigcal simulations and generates the matrix
 
 The equation for calculate input values consists of:
 
