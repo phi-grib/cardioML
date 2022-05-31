@@ -1,19 +1,19 @@
 # Use of Machine Learning algorithms to speed up electrophysiological simulations
 
-In cardiotoxicity studies it is common to pre-compute the values of different biomarkers (![my equation](https://latex.codecogs.com/svg.image?APD_{90}) or TX) for a range of ion channel blockades. Since every simulation requires costly computations, to complete the matrix of simulations for several ion channels can be cumbersome. Some examples of how these simulations are run and used are included in the references
+In cardiotoxicity studies it is common to pre-compute the values of different biomarkers (![my equation](https://latex.codecogs.com/svg.image?APD_{90}) or TX) for a range of ion channel blockades. Since every simulation requires costly computations, to complete the matrix of simulations for several ion channels can be cumbersome. Some examples of how these simulations are run and used are included in the references.
 
 The relationship between the input values and the biomarker is not too complex and Machine Learning can be used to obtain a good approximation. The resulting function can be generated using only an small fraction of the computations required to generate the whole matrix. This function can then be used to predict the biomarker value for any combination of the covered range, with an excellent accuracy
 
-In this repository we have included a jupyter notebook and example simulation results that demonstrate this idea. 
+In this repository we have included a jupyter notebook and some simulation results that demonstrate this idea. 
 
-Regarding to data matrices correspond to simulations using modified O'Hara** version which have been produced by Jordi Llopis, Beatriz Trenor and Javier Saiz at the Centro de Investigación e Innovación en Bioingeniería (Ci2B), Universitat Politècnica de València, Valencia, Spain
+Regarding the data matrices, they correspond to simulations using a modified version of the ventricular action potential model by O'Hara et al., which have been performed by Jordi Llopis, Beatriz Trenor and Javier Saiz at the Centro de Investigación e Innovación en Bioingeniería (Ci2B), Universitat Politècnica de València, Valencia, Spain
 
-- KrKsCaL.xlsx: This is data matrix for build the ML models.
-- APD90_12CiPA_drugs_IKrIKsICaL.xlsx: This excel contains the input and output values for CiPA compounds.
-- EFTPC_IC50_28_CiPADrugs.xlsx: This file contains D, ![my equation](https://latex.codecogs.com/svg.image?I&space;C_{50}) and hill coefficient for calculate the input values for CiPA compounds of the previous excel file.
+- KrKsCaL.xlsx: This is the data matrix needed to build the ML models.
+- APD90_12CiPA_drugs_IKrIKsICaL.xlsx: This excel file contains the input and output values for CiPA compounds.
+- EFTPC_IC50_28_CiPADrugs.xlsx: This file contains D, ![my equation](https://latex.codecogs.com/svg.image?I&space;C_{50}) and hill coefficient to calculate the input values for CiPA compounds of the previous excel file.
 - Folder "Matrix Building": This folder contains MATLAB functions for generating the KrKsCaL matrix. The script "buildMatrixKrKsNaL.m" is the main script which run the electrophysioloigcal simulations and generates the matrix
 
-The equation for calculate input values consists of:
+The equation to calculate input values is:
 
 ![my equation](https://latex.codecogs.com/svg.image?\text&space;{&space;Input&space;value&space;}=\log&space;_{10}\left(\left[\frac{D}{I&space;C_{50}}\right]^{h}\right))
 
