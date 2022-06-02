@@ -6,7 +6,7 @@ The relationship between the input values and the biomarker is not too complex a
 
 In this repository we have included a jupyter notebook and some simulation results that demonstrate this idea. 
 
-Regarding the data matrices, they correspond to simulations using a modified version of the ventricular action potential model by O'Hara et al., which have been performed by Jordi Llopis, Beatriz Trenor and Javier Saiz at the Centro de Investigación e Innovación en Bioingeniería (Ci2B), Universitat Politècnica de València, Valencia, Spain
+Regarding the data matrices, they correspond to simulations using a modified version of the ventricular action potential model by O'Hara et al., which have been performed by Jordi Llopis, Beatriz Trenor and Javier Saiz at the Centro de Investigación e Innovación en Bioingeniería (Ci2B), Universitat Politècnica de València, Valencia, Spain.
 
 - KrKsCaL.xlsx: This is the data matrix needed to build the ML models.
 - APD90_12CiPA_drugs_IKrIKsICaL.xlsx: This excel file contains the input and output values for CiPA compounds.
