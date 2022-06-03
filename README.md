@@ -2,7 +2,7 @@
 
 In cardiotoxicity studies it is common to pre-compute the values of different biomarkers (![my equation](https://latex.codecogs.com/svg.image?APD_{90}) or TX) for a range of ion channel blockades. Since every simulation requires costly computations, to complete the matrix of simulations for several ion channels can be cumbersome. Some examples of how these simulations are run and used are included in the references.
 
-Machine Learning can be used to obtain a good approximation of the relationship between the pharmacological input values and the arrhythmogenic biomarkers. The resulting function can be generated using only an small fraction of the computations required to generate the whole matrix. Therefore, the computational time required for the simulation can be significantly reduced. This function can then be used to predict the biomarker value for any combination of the covered range, with an excellent accuracy.
+Machine Learning can be used to obtain a good approximation of the relationship between the pharmacological input values and the arrhythmogenic biomarkers. The resulting function can be generated using only a small fraction of the computations required to generate the whole matrix. Therefore, the computational time required for the simulation can be significantly reduced. This function can then be used to predict the biomarker value for any combination of the covered range, with an excellent accuracy.
 
 In this repository we have included a jupyter notebook and some simulation results that demonstrate this idea. 
 
